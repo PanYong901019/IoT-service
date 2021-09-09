@@ -1,0 +1,7 @@
+service:BaseManage:8080:springboot:/data/java/BaseManage.jar:baseManage.sh
+service:FireTrain:8082:springboot:/data/java/FireTrain.jar:fireTrain.sh
+service:SafetyManage:8083:springboot:/data/java/SafetyManage.jar:safetyManage.sh
+service:MediaManage:8086:springboot:/data/java/MediaManage.jar:mediaManage.sh
+service:MonitorScreen:8088:springboot:/data/java/MonitorScreen.jar:monitorScreen.sh
+service:FaceEngine:8089:springboot:/data/java/FaceEngine.jar:faceEngine.sh
+service:za-training:65000:springboot:/data/java/za-training:startup.sh
